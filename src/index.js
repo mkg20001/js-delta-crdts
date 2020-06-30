@@ -7,6 +7,7 @@ module.exports = (typeName) => {
 }
 
 const types = {
+  clock: require('./clock'),
   gcounter: require('./gcounter'),
   pncounter: require('./pncounter'),
   lexcounter: require('./lexcounter'),
